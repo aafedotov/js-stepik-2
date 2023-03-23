@@ -10,3 +10,5 @@ let canBuy = (balance > 1000 || bonusBalance > 100)
 toPrint = canBuy ? 'Вы можете купить игру!' : 'Вы не можете купить игру!';
 
 console.log(toPrint);
+console.log('No' && 'Yes');
+console.log(true && 'd' ?? '');
